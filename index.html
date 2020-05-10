@@ -1,6 +1,19 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+	    <title>Leaflet debug page</title>
+
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.css" />
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.js"></script>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel="stylesheet" href="leaflet_dist/screen.css" />
+
+    	<link rel="stylesheet" href="leaflet_dist/MarkerCluster.css" />
+    	<link rel="stylesheet" href="leaflet_dist/MarkerCluster.Default.css" />
+    	<script src="leaflet_dist/leaflet.markercluster-src.js"></script>
+    	<script src="org-locations.js"></script>
+    	
+    	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Bereket YILMA</title>
@@ -77,6 +90,7 @@
 						<li><a href="#" data-nav-section="blog">Certifications</a></li>
 			
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
+						<li><a href="#" data-nav-section="Talks">Talks</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -147,7 +161,7 @@
 									            <div class="row">
 										      		<div class="col-md-12">
 													<h2><a href="http://doctorat.univ-lorraine.fr/fr/etre-doctorant/annuaire/yilma-bereket"target="_blank">UNIVERSITY OF LORRAINE (UL)</a></h2>
-										      			<p> The theme of my Ph.D research is Human-Centered Artificial Intelligence focusing on Personalization in Cyber-Physical-Social Systems. </p>
+										      			<p> Human-Centered Artificial Intelligence focusing on Personalization in Cyber-Physical-Social Systems (CPSS). </p>
 										      		</div>
 										      		
 										      	</div>
@@ -313,11 +327,36 @@
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<span class="heading-meta"></span>
 							<h2 class="colorlib-heading animate-box">Publications</h2>
+							<div class="row">
+						        <div class="col-md-6 col-md-offset-3 col-md-pull-3 ">
+						        	<span class="heading-meta">Selected Publications</span>
+						        </div>
+					        </div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12">
 				         <div class="timeline-centered">
+				             
+				             <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  
+					                 
+									      <div class="panel-body">
+											<h4>Bereket A. Yilma, Y. Naudet and H.Panetto.:  Meta-Model of Cyber-Physical-Social System: The CPSS paradigm to support Human-Machine collaboration in Industry 4.0,
+											</h4><h4>Proceedings of the  20<sup>th</sup> IFIP WG5.5 Working Conference on Virtual Enterprises, PRO-VE 2019.</h4>
+											  
+									    </div>
+					               </div>
+					            </div>
+					         </article>
+				             
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
 
@@ -329,8 +368,8 @@
 					                  
 					                 
 									      <div class="panel-body">
-											<h2>A Meta-Model of Cyber-Physical-Social System: The CPSS paradigm to support Human-Machine collaboration in Industry 4.0
-											</h2><h4>On the  20<sup>th</sup> IFIP WG5.5 Working Conference on Virtual Enterprises, PRO-VE 2019, Turin, Italy</h4>
+											<h4>Bereket A. Yilma, Y. Naudet and H.Panetto.:  A New Paradigm and Meta-Model for Cyber-Physical-Social Systems,
+											</h4><h4>Proceedings of the  21<sup>st</sup> International Federation of Automatic Control World Congress, IFAC2020.</h4>
 											  
 									    </div>
 					               </div>
@@ -338,7 +377,24 @@
 					         </article>
 
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					         
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+								  
+					                 
+									        <div class="panel-body">
+											<h4>Bereket A. Yilma, Y. Naudet and H.Panetto.: Introduction to Personalisation in Cyber-Physical-Social Systems</h4>
+											<h4>Proceedings of the 14<sup>th</sup>OTM/IFAC/IFIP International Workshop on Enterprise Integration, Interoperability and Networking (EI2N 2018).</h4>
+					               	</div>
+					            </div>
+					         </article>
+
+					        <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
 					            <div class="timeline-entry-inner">
 					               <div class="timeline-icon color-2">
 					                  <i class="icon-pen2"></i>
@@ -347,8 +403,8 @@
 					               	 
 					                 
 									        <div class="panel-body">
-											<h2>The effect of emojis when interacting with conversational interface assisted health coaching system</h2>
-											<h4>On the  12<sup>th</sup> EAI International Conference on Pervasive Computing Technologies for Healthcare 2018, Atlanta, United States</h4>
+											<h4>A Fadhil, G Schiavo, Y Wang, BA Yilma. : The effect of emojis when interacting with conversational interface assisted health coaching system</h4>
+											<h4>Proceedings of the 12<sup>th</sup> EAI International Conference on Pervasive Computing Technologies for Healthcare 2018.    </h4>
 					               </div>
 					            </div>
 					         </article>
@@ -362,40 +418,10 @@
 					              
 					                 
 									        <div class="panel-body">
-											<h2>Personalisation in cyber physical and social systems: the case of recommendations in cultural heritage spaces</h2>
-											<h4>On the  13<sup>th</sup> nternational Workshop on Semantic and Social Media Adaptation and Personalization (SMAP2018), Zaragoza, Spain </h4>
+											<h4>Y. Naudet, B.A Yilma and H.Panetto.: Personalisation in cyber physical and social systems: the case of recommendations in cultural heritage spaces</h4>
+											<h4>Proceedings of the 13<sup>th</sup> International Workshop on Semantic and Social Media Adaptation and Personalization (SMAP2018).</h4>
 					               </div>
 					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-								  
-					                 
-									        <div class="panel-body">
-											<h2>Introduction to Personalisation in Cyber-Physical-Social Systems</h2>
-											<h4>On the  14<sup>th</sup>OTM/IFAC/IFIP International Workshop on Enterprise Integration, Interoperability and Networking (EI2N 2018),Valletta, Malta</h4>
-					               	</div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-								   
-					                 
-									        <div class="panel-body">
-											<h2>Recommendation based on sequence</h2>
-											<h4>Doctoral workshop on representation learning, Trento, Italy</h4>
-					               	</div>
 					            </div>
 					         </article>
 
@@ -831,7 +857,7 @@
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
 					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 ">
 							<span class="heading-meta">Find me ON</span>
 							
 						</div>
@@ -862,33 +888,55 @@
 				
 
 						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="" data-animate-effect="fadeInRight">
-									<form action="">
-										<div class="form-group">
-										<h2 class="colorlib-heading">Get in Touch</h2>
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send">
-										</div>
-									</form>
-								</div>
-								
-							</div>
-						</div>
+						
 					</div>
 				</div>
+			</section>
+			
+			<section id="colorlib-hero" data-section="Talks">
+			    
+			 
+			 
+			    <div class="colorlib-narrow-content">
+			        <div class="row">
+						<div class="col-md-6 col-md-offset-8 col-md-pull-3 col-sm-4 col-xs-12 js-fullheight ">
+						    <div class="col-md-6 col-md-offset-3 col-md-pull-3">
+							<span class="heading-meta"></span>
+							<h2 class="colorlib-heading">Talks</h2>
+							<h4>The following is a map of the places where I gave a talk or a poster presentation</h4>.
+						</div>
+			        <div id="map"></div>
+                    	<span>Mouse over a cluster to see the bounds of its children and click a cluster to zoom to those bounds</span>
+                        	<script type="text/javascript">
+                        		var tiles = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+                                  maxZoom: 18,
+                                  attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+                                        }),
+                        			latlng = L.latLng(30, 10);
+                        		var map = L.map('map', {center: latlng, zoom: 0.7, layers: [tiles]});
+                        		var markers = L.markerClusterGroup({
+                        			showCoverageOnHover: false,
+                        			maxClusterRadius: 80
+                        			});
+                        		for (var i = 0; i < addressPoints.length; i++) {
+                        			var a = addressPoints[i];
+                        			var title = a[0];
+                        			var marker = L.marker(new L.LatLng(a[1], a[2]), { title: title });
+                        			marker.bindPopup(title);
+                        			markers.addLayer(marker);
+                        		}
+                        		map.addLayer(markers);
+                        		map.zoomIn();
+                        	</script>
+			    
+			    </div>
+			    
+			    
+		
+			    
+			    
+			    
+			    
 			</section>
 
 		</div><!-- end:colorlib-main -->
