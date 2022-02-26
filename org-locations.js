@@ -20,7 +20,7 @@ var addressPoints = [
     14.5146
   ],
   [
-    "Montreal, Canada",
+    "Montreal, Canada (<a href=\"https://blackinai.github.io/#/workshop/bai2018\"> <b> BAI @NeurIPS2018</b></a> )",
     45.508888,
     -73.561668
   ],
@@ -30,7 +30,7 @@ var addressPoints = [
     1.5536
   ],
   [
-    "Vancouver, Canada",
+    "Vancouver, Canada (<a href=\"https://blackinai.github.io/#/workshop/bai2019\"> <b> BAI @NeurIPS2019</b></a> )",
     49.246292,
     -123.116226
   ],
@@ -40,12 +40,12 @@ var addressPoints = [
     6.1844
   ],
   [
-    "Berlin, Germany",
+    "Berlin, Germany (<a href=\"https://www.ifac2020.org/\"> <b> @IFAC2020</b></a> )",
     52.5200,
     13.4050
   ],
   [
-    "San Fransisco, USA",
+    "San Fransisco, USA (<a href=\"https://data.berkeley.edu/\"> <b> @UCSC2019</b></a> )",
     37.773972,
     -122.431297
   ]
