@@ -48,6 +48,31 @@ var addressPoints = [
     "San Fransisco, USA (<a href=\"https://data.berkeley.edu/\"> <b> @UCSC2019</b></a> )",
     37.773972,
     -122.431297
+  ],
+  [
+    "Hamburg, Germany (<a href=\"https://chi2023.acm.org/\"> <b> @CHI2023</b></a> )",
+    53.5488,
+    9.9872
+  ],
+  [
+    "Saarbrücken, Germany (<a href=\"https://cixschool2022.cs.uni-saarland.de/speakers/\"> <b> @CIX22</b></a> )",
+    49.2382,
+    6.9975
+  ],
+  [
+    "Michigan, USA (<a href=\"https://cixschool2023.engin.umich.edu/speakers/\"> <b> @CIX23</b></a> )",
+    42.2808,
+    -83.7430
+  ],
+  [
+    "Washington DC, USA ( <b> @AIFest 2018</b> )",
+    38.9072,
+    -77.0369
+  ],
+  [
+    "Limassol, Cyprus (<a href=\"https://www.um.org/umap2023/\"> <b> @UMAP'23</b></a> )",
+    34.6786,
+    33.0413
   ]
   
   
