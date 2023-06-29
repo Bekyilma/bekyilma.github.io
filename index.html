@@ -91,7 +91,7 @@
 						<!-- <li><a href="#" data-nav-section="blog">Certifications</a></li> -->
 						<li><a href="#" data-nav-section="Teaching">Teaching</a></li>
 						<li><a href="#" data-nav-section="Students">Students</a></li>
-						<li><a href="#" data-nav-section="Media">News & Media</a></li>
+						<li><a href="#" data-nav-section="Media">News</a></li>
 						<li><a href="#" data-nav-section="Talks">Talks</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
@@ -177,16 +177,9 @@
 													<b
 														><a href="https://wwwen.uni.lu/" target="_blank">
 														University of Luxembourg</a
-														>,</b
-													>
-													Faculty of Science, Technology and Medicine
-													<a href="https://wwwen.uni.lu/fstm" target="_blank"> (FSTM)</a
-													>, Department of Computer Science
-													<a
-														href="https://wwwen.uni.lu/research/fstm/dcs"
-														target="_blank"
-													>
-														(DCS),
+														></b
+													>,
+													
 													</a>
 													where I explore different aspects of
 													<b> Human-Centered Artificial Intelligence </b> including
@@ -349,7 +342,8 @@
 											<h2><li><a href="https://www.sciencedirect.com/journal/future-generation-computer-systems"target="_blank"> Future Generation Computer Systems</a></li></h2>
 											  <h2><li><a href="https://www.springer.com/journal/607"target="_blank"> Computing Journal</a></li></h2>
 											  <h2><li><a href="https://www.sciencedirect.com/journal/machine-learning-with-applications"target="_blank"> Springer Nature Computer Science Journal</a></li></h2>
-											  <h2><li><a href=" https://www.springer.com/journal/42979"target="_blank"> Machine Learning with Applications Journal</a></li></h2>
+											  <h2><li><a href="https://uobevents.eventsair.com/cikm2023/"target="_blank"> Machine Learning with Applications Journal</a></li></h2>
+											 <h2><li><a href="https://sigir.org/sigir2022/"target="_blank">32nd ACM International Conference on Information and Knowledge Management (CIKM'23)   </a></li></h2> 
 											  <h2><li><a href="https://sigir.org/sigir2022/"target="_blank">The 28th International ACM IUI Conference on Intelligent User Interfaces (IUI'23) </a></li></h2>
 											  <h2><li><a href="https://sigir.org/sigir2022/"target="_blank">The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'22) </a></li></h2>
 											  <h2><li><a href="https://sigir.org/sigir2022/"target="_blank"> ACM SIGCHI Conference on Human Factors in Computing Systems (SIGCHI'23) </a></li></h2>
@@ -1368,6 +1362,10 @@
 								<p>
 									<ul> 
 										
+										<li> <b>Our <a href="https://dl.acm.org/doi/abs/10.1145/3565472.3592964" target="_blank">
+											UMAP2023 paper</a> has been nominated for <a href="https://twitter.com/UMAPconf/status/1673590887274643457?s=20" target="_blank">
+												best paper </a> award.
+										</li> 
 										<li> <b>I’ve received <a href="https://www.fnr.lu/" target="_blank">
 											FNR</a>'s 2023 RESCOM scientific events Grant  of 36.900.00€ for<a href="https://hitlaml.uni.lu/" target="_blank">
 												Human-in-the-Loop Applied Machine Learning (HITLAML)</a> 
@@ -1386,14 +1384,15 @@
 
 							
 						</div>
-						<a class="twitter-timeline" data-lang="en" data-width="600" data-height="600" data-theme="dark" href="https://twitter.com/bek_yilma?ref_src=twsrc%5Etfw">Tweets by bek_yilma</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						<a class="twitter-timeline" data-lang="en" data-width="800" data-height="600" data-theme="light" href="https://twitter.com/bek_yilma?ref_src=twsrc%5Etfw">Tweets by bek_yilma</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</div>
 					
 					
 				</div>
 			</section>
 
-			
+					
+		</br></br></br></br>
 
 
 			
@@ -1405,11 +1404,14 @@
 							<span class="heading-meta"></span>
 							<h4><b>TALKS</b> </br></h4>
 							
-								<span class="heading-meta">Invited Talks</span>
+								<span class="heading-meta">Invited Talks & Panels</span>
 						
 							<p>
 								<ul> 
 									
+									<li> <b>Context Representation in User Modeling </b><a href="https://crum-workshop.github.io/#about" target="_blank">
+										CRUM Workshop</a> at <a href="https://www.um.org/umap2023/" target="_blank"> UMAP2023</a>, Limassol, Cyprus, June 2023.
+									</li>
 									<li> <b>Can Machine Intelligence crack the code of Visual Arts?</b><a href="https://cucolab.uni.lu/" target="_blank">
 										Culture & Computation Lab, Luxembourg</a>, June 2023.
 									</li>
@@ -1437,33 +1439,11 @@
 								</h4>	
 						
 					</div>
-					The following is a map of the places where I gave a talk or a poster presentation. </br></br>
-			        <div id="map" ></div>
-                    	
-                        	<script type="text/javascript">
-                        		var tiles = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-                                  maxZoom: 18,
-                                  attribution: ''
-                                        }),
-                        			latlng = L.latLng(30, 10);
-                        		var map = L.map('map', {center: latlng, zoom: 0.7, layers: [tiles]});
-                        		var markers = L.markerClusterGroup({
-                        			showCoverageOnHover: false,
-                        			maxClusterRadius: 80
-                        			});
-                        		for (var i = 0; i < addressPoints.length; i++) {
-                        			var a = addressPoints[i];
-                        			var title = a[0];
-                        			var marker = L.marker(new L.LatLng(a[1], a[2]), { title: title });
-                        			marker.bindPopup(title);
-                        			markers.addLayer(marker);
-                        		}
-                        		map.addLayer(markers);
-                        		map.zoomIn();
-                        	</script>
-			    
 			    </div>
-			   </div>    
+			   </div>   
+			   
+			   
+
 			</section>
 
 			<section class="colorlib-contact" data-section="contact">
